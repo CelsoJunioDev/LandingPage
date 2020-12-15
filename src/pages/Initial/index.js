@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import Sidebar from '../../components/Sidebar'
 import Navbar from '../../components/Navbar'
-import Home from '../Home'
-import About from '../About'
-import Projects from '../Projects'
 import Contact from '../Contact'
+
+import Section from '../../components/Section'
+import {Home, About, Abilities, Projects} from '../../components/Section/Data'
 
 export default function Initial() {
 const [isOpen, setIsOpen] = useState(false)
@@ -17,10 +17,11 @@ const toggle = () =>{
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
-            <Home/>
-            <About/>  
-            <Projects/>  
-            <Contact/>   
+            <Section {...Home}/>
+            <Section {...About}/>
+            <Section {...Abilities}/>
+            <Section {...Projects}/>
+             
         </>
         
     )

@@ -7,7 +7,7 @@ export const projectColors = {
 
 export const Nav = styled.nav`
   background: ${projectColors.navColor};
-  height: 80px;
+  height: 60px;
   display:flex;
   justify-content:center;
   align-items:center;

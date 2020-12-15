@@ -27,7 +27,16 @@ const Navbar = ({ toggle }) => {
                 duration={500}
                 exact="true"
                 offset={-80}
-              >About</NavLinks>
+              >Sobre</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks
+                to='abilities'
+                smooth={true}
+                duration={500}
+                exact="true"
+                offset={-80}
+              >Habilidades</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks
@@ -36,8 +45,9 @@ const Navbar = ({ toggle }) => {
                 duration={500}
                 exact="true"
                 offset={-80}
-              >Projects</NavLinks>
+              >Projetos</NavLinks>
             </NavItem>
+
             <NavItem>
               <NavLinks
                 to='contact'
@@ -45,17 +55,9 @@ const Navbar = ({ toggle }) => {
                 duration={500}
                 exact="true"
                 offset={-80}
-              >Contact</NavLinks>
+              >Contato</NavLinks>
             </NavItem>
-            {/* <NavItem>
-              <NavLinks
-                to='contact'
-                smooth={true}
-                duration={1000}
-                exact="true"
-                offset={-80}
-              >Contact</NavLinks>
-            </NavItem> */}
+           
           </NavMenu>
         </NavbarContainer>
       </Nav>
