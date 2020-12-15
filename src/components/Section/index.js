@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '../Button';
 import { BtnWrap,  Heading, TextWrapper, TopLine, Subtitle, InfoWrapper, InfoRow, InfoContainer, Column1, Column2, ImgWrap, Img } from './infoElements';
 
-const Section = ({ id, imgStart, fontBlack, topLine, headLine, description, buttonLabel, alt, buttonDirection, lightBgColor, img }) => {
+const Section = ({ id, imgStart, topLine, headLine, description, buttonLabel, alt, buttonDirection, lightBgColor, img }) => {
   return (
     <>
       <InfoContainer id={id} lightBgColor={lightBgColor}>

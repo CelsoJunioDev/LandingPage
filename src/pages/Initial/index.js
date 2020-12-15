@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import Sidebar from '../../components/Sidebar'
 import Navbar from '../../components/Navbar'
-import Contact from '../Contact'
 
 import Section from '../../components/Section'
 import {Home, About, Abilities, Projects} from '../../components/Section/Data'
