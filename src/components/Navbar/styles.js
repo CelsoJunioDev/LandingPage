@@ -7,7 +7,7 @@ export const projectColors = {
 
 export const Nav = styled.nav`
   background: ${projectColors.navColor};
-  height: 60px;
+  height: 50px;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -71,7 +71,7 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkScroll)`
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #fff;
   display: flex;
   align-items: center;

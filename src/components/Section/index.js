@@ -18,9 +18,7 @@ const Section = ({ id, imgStart, topLine, headLine, description, buttonLabel, al
                     to={buttonDirection}
                     smooth={true}
                     duration={500}
-                    spy={true}
                     exact="true"
-                    offset={-80}
                   >
                     {buttonLabel}</Button>
                 </BtnWrap>

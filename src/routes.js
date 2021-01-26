@@ -6,7 +6,7 @@ function Routes() {
     return (
         <BrowserRouter>
         <Switch>
-            <Route exact path="/" component={Initial}/>
+            <Route path="/" component={Initial}/>
         </Switch>
         </BrowserRouter>
     )

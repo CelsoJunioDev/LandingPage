@@ -8,7 +8,7 @@ export const Home = {
   buttonDirection: 'about',
   topLine: 'Home',
   headLine: 'Celso Junio',
-  description: 'Desenvolvedor Mobile / Web React Native, ReactJs, NodeJs.',
+  description: 'Desenvolvedor Mobile / Web - React Native, ReactJs, NodeJs.',
   buttonLabel: 'Start',
   imgStart: false,
   img: Img1,

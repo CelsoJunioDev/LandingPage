@@ -4,6 +4,8 @@ import Navbar from '../../components/Navbar'
 
 import Section from '../../components/Section'
 import {Home, About, Abilities, Projects} from '../../components/Section/Data'
+import Contact from '../Contact'
+import Projectss from '../Projects'
 
 export default function Initial() {
 const [isOpen, setIsOpen] = useState(false)
@@ -19,7 +21,8 @@ const toggle = () =>{
             <Section {...Home}/>
             <Section {...About}/>
             <Section {...Abilities}/>
-            <Section {...Projects}/>
+            <Projectss/>
+            <Contact/>
              
         </>
         
